@@ -1,0 +1,276 @@
+body, button, select{
+    font-family: georgia;
+    font-size: 1em;
+}
+
+input, #tabela{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+#formulario{
+    background-color: #fafafa;
+    width: 600px;
+    display: table;
+    margin: 0 auto;
+    border: solid 1px #dbdbdb;  
+    padding: 45px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.linha{
+    display: table;
+}
+
+.campo label {
+    margin-bottom: 0.3em;
+    color: #666;
+    display: block;
+}
+
+.linha .campo {
+    float:  left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+input{
+    display: block;
+    padding: 0.4rem 0.7rem;
+    color: #495057;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.25rem;
+}
+
+input:focus {
+    color: rgb(85, 81, 81);
+    border-color: #c47070;;
+    outline: 0;
+    box-shadow: 0 0 0.2rem rgba(255, 73, 49, 0.25);
+}
+
+select{
+    padding: 0.6rem 0.7rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.25rem;
+    color: #666;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: #47607c;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,3.0);
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.botao:hover {
+    box-shadow: 3px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao2 {
+    font-size: 1.5em;
+    background: #c47070;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,3.0);
+    cursor: pointer;
+    margin: 0 auto;
+    display:table;
+}
+
+.botao2:hover {
+    box-shadow: 3px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botaoc {
+    font-size: 1.5em;
+    background: #5a7a9e;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,3.0);
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.botaoc:hover {
+    box-shadow: 3px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botaop {
+    font-size: 1.5em;
+    background: #7698be;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,3.0);
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.botaop:hover {
+    box-shadow: 3px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+table{ 
+    background-color: #fafafa;
+}
+#tabela{
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+    margin-top:30px;
+}
+
+/*tabela de funcionarios*/
+#lista{
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#lista th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #47607c;
+    color: white;
+    font-weight: bold;
+}
+
+#lista td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#lista td, #lista th {
+    border: 1px solid #cecece;
+    padding: 8px;
+}
+  
+#lista tr:hover {
+    background-color: #ebebeb;
+}
+
+
+
+/*tabela de clientes*/
+#listac{
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#listac th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #5a7a9e;
+    color: white;
+    font-weight: bold;
+}
+
+#listac td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#listac td, #listac th {
+    border: 1px solid #cecece;
+    padding: 8px;
+}
+
+#listac tr:hover {
+    background-color: #ebebeb;
+}
+
+
+/*tabela de produtos*/
+
+#listap{
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#listap th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #7698be;
+    color: white;
+    font-weight: bold;
+}
+
+#listap td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#listap td, #listap th {
+    border: 1px solid #cecece;
+    padding: 8px;
+}
+
+#listap tr:hover {
+    background-color: #ebebeb;
+}
+
+
+
+.edita{
+    width:7rem;
+    background:none;
+    border:none;
+}
+
+.nome:hover{
+    color: #7bc4ff;
+    font-size:25px;
+    cursor:pointer;
+}
+
+.perfil {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+  
+.perfil input {
+    position: inline-block;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.radio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+
+.perfil input:checked ~ .radio { /*selecionar tudo dentro do input e radio*/
+    background-color: #c47070;
+  }
+  
